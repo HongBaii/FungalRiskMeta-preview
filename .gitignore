@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.Rhistory
+
+# Local environments and temporary outputs
+.venv/
+env/
+results/
+demo_out/
+examples/minimal/risk_out/
+examples/minimal/preview_out/
+
+# Large or unpublished resources are intentionally excluded from public preview.
+benchmarks/
+db/
+db_fungamr/
+external_databases/
+resources/amr_db_v2/
+docs/word/
+docs/tables/*.tsv

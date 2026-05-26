@@ -1,0 +1,14 @@
+name: fungalriskmeta-preview
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - minimap2=2.30
+  - diamond
+  - samtools=1.22
+  - bcftools=1.22
+  - pyyaml=6.0
+  - numpy=1.26
+  - matplotlib=3.8
+  - pip
